@@ -1,7 +1,7 @@
 body {
   display:grid;
   grid-template-columns:100%;
-  grid-template-rows:1500px 1800px 700px 1200px 300px   ;
+  grid-template-rows:1500px 2200px 700px 1200px 300px   ;
   background-color:white;
   padding:0px;
   margin:0px;
@@ -12,7 +12,7 @@ header {
   background-image:url("image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:centre centre;
+  background-position:center center;
   
   width:100%;
  
@@ -58,7 +58,7 @@ nav{
   
   display:grid;
   grid-template-columns: 50% 50% ;
-  grid-template-rows:600px 600px 600px;
+  grid-template-rows:600px 600px 1000px;
   background-color:white;
   padding:0px;
   justify-content:space-around;
@@ -71,6 +71,8 @@ nav{
   flex-direction:column-reverse;
    align-items: center;
    background-image:url("orange.jpg");
+   background-size: cover;
+   background-position: center center;
   padding:50px;
   font-family: 'Barlow', sans-serif;
 }
@@ -143,7 +145,7 @@ nav{
 }
 .imc{
   clip-path:ellipse(50% 50%);
-  height:50px;
+  height:100px;
 }
 
 /*s2*/
@@ -164,7 +166,7 @@ nav{
 }
 .photo1{
   background-image:url("milkbottle.jpg"); 
-  background-position: centre centre;
+  background-position: center center;
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -218,8 +220,8 @@ footer{
     
   body {
     display:grid;
-    grid-template-columns:100%;
-    grid-template-rows: 1500px 6000px 900px 4000px 300px;
+    grid-template-columns:800px;
+    grid-template-rows: 1500px 6000px 900px 2000px 300px;
     background-color:white;
     padding:0px;
     margin:0px;
@@ -231,7 +233,7 @@ footer{
     background-image:url("image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:centre centre;
+    background-position:center center;
    
     
    }
@@ -383,8 +385,8 @@ footer{
   /*s3*/
    .section_3{
      display:grid;
-     grid-template-columns:100%;
-     grid-template-rows:1000px 1000px 1000px 1000px;
+     grid-template-columns:50% 50%;
+     grid-template-rows:1000px 1000px;
      
      padding:0px;
      gap:0px;
