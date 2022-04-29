@@ -1,0 +1,464 @@
+body {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows:1500px 1800px 700px 1200px 300px   ;
+  background-color:white;
+  padding:0px;
+  margin:0px;
+  gap:0px;
+}
+/*header*/
+header {
+  background-image:url("image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:centre centre;
+  
+  width:100%;
+ 
+}
+.en-tete{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:50px;
+}
+nav{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  font-family: 'Barlow', sans-serif;
+  color:white;
+}
+.lo{margin:20px;}
+.contact{
+  background-color:white;
+  color:black;
+  padding:20px;
+  border-radius:30px;
+  margin:5px;
+}
+.illustration{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ }
+.we{
+  font-family: 'Fraunces', serif;
+  font-size:100px;
+  color:white;
+  margin-top:300px;
+}
+.arrow{margin-top:10px;}
+
+/*header*/
+
+/*s1*/
+.section_1{
+  
+  display:grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows:600px 600px 600px;
+  background-color:white;
+  padding:0px;
+  justify-content:space-around;
+  box-sizing:border-box;
+  width:100%;
+  gap:0px;
+}
+.icon_6{
+   display:flex;
+  flex-direction:column-reverse;
+   align-items: center;
+   background-image:url("orange.jpg");
+  padding:50px;
+  font-family: 'Barlow', sans-serif;
+}
+.icon_6_child{ order:2;}
+.icon_6_p{margin-right:75px; margin-left:75px; text-align:center;}
+
+.icon_1,.icon_4{
+   background-color:white;
+   padding-top:200px;
+   padding-right:50px;
+  padding-left:75px;
+  font-family: 'Barlow', sans-serif;
+}
+.icon{font-size:50px;}
+
+.icon_2{
+   background-image:url("egg.jpg");
+}
+
+.icon_3{
+   background-image:url("cup.jpg"); 
+}
+
+.icon_5{
+   background-image:url("cerises.jpg"); 
+   display:flex;
+   flex-direction:column-reverse;
+   align-items: center;
+   padding:50px;
+   font-family: 'Barlow', sans-serif;
+}
+.icon_5_child{order:2;}
+.icon_5_p{margin-right:75px; margin-left:75px; text-align:center;}
+/*s1*/
+
+/*s2*/
+.section_2{
+   background-color:white;
+   height:700px;
+   font-family: 'Barlow', sans-serif;
+}
+.testimonial{
+  text-align:center;
+  margin-top:150px;
+  font-weight:bolder;
+  color:#989c9b;
+}
+.client{
+   display: flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items: center;
+   margin-top:75px;
+   
+}
+
+.image_1{
+  text-align:center;
+}
+.image_2{
+  text-align:center;
+}
+.image_3{
+  text-align:center;
+}
+.temoignage{
+  margin:20px 20px 20px 20px;
+  border:white;
+  color:#989c9b;
+}
+.imc{
+  clip-path:ellipse(50% 50%);
+  height:50px;
+}
+
+/*s2*/
+
+/*s3*/
+.section_3{
+  display:grid;
+  grid-template-columns:50% 50%;
+  grid-template-rows:600px 600px;
+  
+}
+.photo2{
+   background-image:url("lait.jpg");
+   background-position: center center;
+   background-size:cover;
+   background-repeat:no-repeat;
+  
+}
+.photo1{
+  background-image:url("milkbottle.jpg"); 
+  background-position: centre centre;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.photo3{
+  background-image:url("corn.jpg");
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.photo4{
+  background-image:url("sugars.jpg"); 
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+  
+}
+
+/*s3*/
+
+/*footer*/
+footer{
+   background-color:  #87d3cb
+;
+   height:300px;
+   text-align:center;
+}
+.foot{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  color: #6d7675;
+}
+.ft{
+  margin-top:50px;
+  color:  #343b3b
+;
+}
+.li{margin:20px;}
+.social_media{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-top:50px;
+}
+.imf{margin:10px;}
+/*footer*/
+
+/*for phone*/
+@media screen and (max-width:800px){
+    
+  body {
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows: 1500px 6000px 900px 4000px 300px;
+    background-color:white;
+    padding:0px;
+    margin:0px;
+    gap:0px;
+    
+  }
+  /*header*/
+   header {
+    background-image:url("image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:centre centre;
+   
+    
+   }
+   .en-tete{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:20px;
+   }
+   .menu {
+      background-image: url("menu.svg");
+      padding:20px;
+      width:30px;
+   }
+   .menu:hover .lo{background-image: url("menu.svg");}
+   .lo{display:none;}
+   
+   .illustration{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   }
+   .we{
+    font-family: 'Fraunces', serif;
+    font-size:25px;
+    color:white;
+    margin-top:50px;
+     margin-right:50px;
+     margin-left:50px;
+     text-align:center;
+   }
+   .arrow{margin-top:75px;}
+  
+  /*header*/
+  
+  /*s1*/
+  .section_1{
+    
+    display:grid;
+    grid-template-columns: 100% ;
+    grid-template-rows:800px 800px 800px 800px 1200px 2000px;
+    background-color:white;
+    
+    padding:0px;
+    justify-content:center;
+    box-sizing:border-box;
+    width:100%;
+    gap:0;
+   }
+  .icon_6{
+     display:flex;
+    flex-direction:column-reverse;
+     align-items: center;
+     background-image:url("orange.jpg");
+    padding:50px;
+    font-family: 'Barlow', sans-serif;
+    
+    background-position: center center;
+    background-size:cover;
+    
+     background-repeat:no-repeat;
+    
+   }
+  .icon_6_child{ order:2;}
+   .icon_6_p{margin-right:150px; margin-left:150px; margin-bottom:200px; text-align:center;}
+  
+   .icon_1,.icon_4{
+     background-color:white;
+     padding-top:200px;
+     padding-right:100px;
+     padding-left:150px;
+     font-family: 'Barlow', sans-serif;
+   }
+  .icon{font-size:50px;}
+  
+   .icon_2{
+     background-image:url("egg.jpg");
+      background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     margin:0px;
+   }
+  
+   .icon_3{
+     background-image:url("cup.jpg"); 
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     margin:0px;
+   }
+  
+   .icon_5{
+     background-image:url("cerises.jpg"); 
+     display:flex;
+     flex-direction:column-reverse;
+     align-items: center;
+     padding:50px;
+     font-family: 'Barlow', sans-serif;
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+   }
+   .icon_5_child{order:2;}
+   .icon_5_p{margin-right:150px; margin-left:150px; margin-bottom:200px; text-align:center;}
+  /*s1*/
+  
+  /*s2*/
+   .section_2{
+     background-color:white;
+     height:700px;
+     font-family: 'Barlow', sans-serif;
+   }
+   .testimonial{
+    text-align:center;
+    margin-top:50px;
+    font-weight:bolder;
+    color:#989c9b;
+   }
+   .client{
+     display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items: center;
+     margin-top:50px;
+     
+   }
+  
+   .image_1{
+    text-align:center;
+     }
+   .image_2{
+    text-align:center;
+   }
+   .image_3{
+    text-align:center;
+   }
+   .temoignage{
+    margin:20px 20px 20px 20px;
+    border:white;
+    color:#989c9b;
+   }
+   .imc{
+    clip-path:ellipse(50% 50%);
+    height:50px;
+   }
+  
+  /*s2*/
+  
+  /*s3*/
+   .section_3{
+     display:grid;
+     grid-template-columns:100%;
+     grid-template-rows:1000px 1000px 1000px 1000px;
+     
+     padding:0px;
+     gap:0px;
+     margin-bottom:0px;
+   }
+   .photo2{
+     background-image:url("lait.jpg");
+     
+     
+     width:100%;
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     margin:0px;
+   }
+   .photo1{
+     background-image:url("milkbottle.jpg"); 
+     
+     
+    width:100%;
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+   }
+   .photo3{
+     background-image:url("corn.jpg");
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     
+    width:100%;
+   }
+   .photo4{
+     background-image:url("sugars.jpg"); 
+     background-position: center center;
+     background-size:cover;
+     background-repeat:no-repeat;
+     
+     width:100%;
+   }
+  
+  /*s3*/
+  
+  /*footer*/
+   .footerb{
+     background-color:  #87d3cb
+    ;
+     height:300px;
+     text-align:center;
+   }
+   .foot{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     color: #6d7675;
+
+   }
+   .li{margin:10px;}
+   .ft{
+    margin-top:20px;
+    color:  #343b3b
+  ;
+   }
+   .social_media{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:10px;
+   }
+   .imf{margin:10px;}
+  /*footer*/
+   
+  
+  
+  
+  
+}
